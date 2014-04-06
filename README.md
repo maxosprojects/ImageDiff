@@ -12,14 +12,14 @@ This application is available under GPLv3 license. See [LICENSE](LICENSE) for de
 * saved images are compared with the sample image (e.g. from previous release) as part of regression testing to assure no differences introduced
 
 #### The reasoning behind the solution:
-* all actions conducted by a QA engineer manually to get the final screen to test (the result) are can be perfectly automated
+* all actions conducted by a QA engineer manually to get the final screen to test (the result) can be automated perfectly
 * the only thing that cannot be conducted well by a machine is comparing the results of the test and reasoning whether the result is acceptable or not, then reporting problems if any found
 * time spent on the preparation step to get the final result to compare builds up on average 80% of the entire test; this time should be eliminated by delegating this work to the machine (for example for after-work hours)
 
 #### Screenshots directory structure
 Place your screenshots in a directory with the following structure:
 <pre>
-test_screenshot_directory
+test_screenshots_directory
 |-- test1_directory
 |   |-- sample_image.png
 |   |-- browser1.png
